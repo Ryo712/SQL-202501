@@ -46,3 +46,22 @@ GROUP BY:
 購入日時（purchased_at）でデータをグループ化します。
 各購入日ごとの売上額を計算します。
 */
+
+/*データの追加*/
+INSERT INTO students ( name, course) VALUES( 'Kate', 'Java');
+-- 下記のクエリは消さないでください。
+select * from students;
+
+/*データの更新*/
+UPDATE students SET name='Jordan', course='HTML'
+WHERE id=6;
+
+-- 下記のクエリは消さないでください。
+SELECT * FROM students WHERE id=6;
+
+/*データの削除*/
+DELETE FROM students
+WHERE id=2;
+
+-- 下記のクエリは消さないでください。
+SELECT * FROM students;
